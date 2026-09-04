@@ -45,15 +45,15 @@ else
 PRODUCT_NAME := custom_r8q
 endif
 PRODUCT_DEVICE := r8q
-PRODUCT_BRAND := google
-PRODUCT_MODEL := Pixel 10 Pro
-PRODUCT_MANUFACTURER := Google
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SM-G780G
+PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_GMS_CLIENTID_BASE := google-samsung
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-# unapproved GMS identifiers ¯\_(ツ)_/¯
+# Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="blazer-user 17 CP2A.260605.012 15430684 release-keys" \
-    BuildFingerprint=google/blazer/blazer:17/CP2A.260605.012/15430684:user/release-keys \
+    BuildDesc="r8qxx-user 13 TP1A.220624.014 G780GXXSHEYJ1 release-keys" \
+    BuildFingerprint=samsung/r8qxxx/r8q:13/TP1A.220624.014/G781BXXSIHYJ2:user/release-keys \
     DeviceProduct=r8qxx \
     SystemName=r8qxx
